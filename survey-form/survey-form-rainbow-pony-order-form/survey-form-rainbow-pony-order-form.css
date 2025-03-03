@@ -1,0 +1,51 @@
+ label, select, textarea {
+  display: block;
+}
+
+body {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-image: url(https://media.tenor.com/Pdkq6naTkcwAAAAe/cat-kitten.png);
+  background-size: 60em;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p{
+  margin-top: -1em;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 192, 203, 0.6);
+  padding-bottom: 1em;
+}
+
+fieldset {
+  border: 0;
+  margin-bottom: 0.6em
+}
+
+input, textarea {
+  width: 100%;
+  margin: 0.3em 0;
+}
+
+
+.inline {
+  width: unset;
+  display: inline;
+  margin-right: 0.3em;
+}
+
+input[type = "radio"], input[type = "checkbox"] {
+  vertical-align: -1.5;
+}
+
+input[type = "submit"] {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}

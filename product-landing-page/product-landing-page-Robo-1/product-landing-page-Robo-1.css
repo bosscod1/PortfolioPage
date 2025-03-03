@@ -1,0 +1,165 @@
+ * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(150deg, black, #0047AB);
+  width: 100%;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  z-index: 1;
+}
+
+.h1-logo {
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  width: 23vw;
+  max-width: 8rem;
+}
+
+.h1-logo h1 {
+  font-size: min(37px, 11vw);
+  color: #FFFF40;
+} 
+
+#nav-bar {
+  text-align: right;
+  margin-top: -1rem;
+  z-index: 1;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #E5E4E2;
+  font-size: min(2rem, 5vw);
+  margin-left: 2rem;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.article-img {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(30deg, black, #0047AB);
+  padding-top: 18vh;
+  padding-left: 3vw;
+  padding-bottom: 3vh;
+}
+
+.article-img h1 {
+  font-size: 7vw;
+  color: white;
+}
+
+.article-img em {
+  font-size: 11vw;
+  display: block;
+}
+
+.article-img p {
+  font-size: min(3rem, 3vw);
+  margin-top: -3vh;
+  color: white;
+}
+
+#robot-img {
+  width: 45vw;
+  height: auto;
+  margin-top: 1.2rem;
+}
+
+.linear-background {
+  background: linear-gradient(180deg,  black 60%, #0047AB);
+  margin-top: -3vh;
+  padding-top: 2vh;
+}
+
+.features {
+  text-align: center;
+  margin-bottom: 10vh;
+  color: white;
+}
+
+.features h2, .video h2 {
+  font-size: min(6rem, 6vw);
+  margin-bottom: 5rem;
+  color: white;
+}
+
+.features ol {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 5rem;
+}
+
+.features li {
+  font-size: min(3rem, 5vw);
+  margin-bottom: 4.5vh;
+}
+
+.video h2 {
+  margin-bottom: 2rem;
+}
+
+iframe {
+  width: 67.2vw;
+  height: 37.8vw;
+  max-width: 560px;
+  max-height: 316px;
+  margin-bottom: 5rem;
+}
+
+form {
+  border-top: 3px solid black;
+  padding-bottom: 2.5em;
+}
+
+form h2 {
+  font-size: min(3rem, 7vw);
+  color: white;
+}
+
+#email {
+  width: 70%;
+  max-width: 500px;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 20%;
+  max-width: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}

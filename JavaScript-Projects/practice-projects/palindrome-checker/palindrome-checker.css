@@ -1,0 +1,54 @@
+ * {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0 0 3em 0;
+}
+
+body {
+  background-color: #EDEADE;
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  height: 100vh;
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-check {
+  margin-top: 1.5rem;
+}
+
+#text-input {
+  width: 70%;
+  height: 2em;
+}
+
+#check-btn {
+  height: 2em;
+}
+
+#result {
+  font-size: min(1.2em, 6vw);
+  width: 90%;
+  border-bottom: 2px solid black;
+  margin: 1.5em auto 0 auto;
+}
+
+#list-of-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#list-of-text li {
+  text-align: left;
+  margin-bottom: 5px;
+}

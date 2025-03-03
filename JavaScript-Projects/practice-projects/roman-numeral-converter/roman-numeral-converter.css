@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Castoro Titling';
+  background-color: #C0C0C0;
+}
+
+#input-output {
+  border: 2px solid;
+  width: 80%;
+  max-width: 500px;
+  padding: 1rem;
+  background-color:	white;
+  opacity: 0.85;
+}
+
+#number {
+  margin-bottom: 1em;
+  height: 2em
+}
+
+#convert-btn {
+  height: 2em;
+}
+
+#output {
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+#roman-background {
+  z-index: -1;
+  position: absolute;
+  width: 20rem;
+  opacity: 0.2;
+}

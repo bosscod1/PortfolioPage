@@ -1,0 +1,87 @@
+ body {
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(#071952, black);
+  font-family: Tahoma;
+}
+
+h1, #description {
+  text-align: center;
+  color: white;
+}
+
+#title {
+  font-size: 2.2em;
+  margin-top: 0.5em;
+}
+
+#description {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -1em;
+  margin-bottom: 1em;
+  font-size: 100%;
+  max-width: 500px;
+}
+
+#survey-form {
+  width: 85%;
+  margin: 3em auto;
+  max-width: 500px;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#information {
+  padding-top: 1.2em;
+}
+
+#information input {
+  width: 100%;
+  margin: 0.5em auto 1em auto;
+  height: 2em;
+}
+
+#dropdown {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2em;
+}
+
+fieldset {
+  margin: 1em auto;
+  border: none;
+}
+
+input[type = "radio"] {
+  margin-top: -1em;
+}
+
+#usage-status {
+  margin-top: 1.5em;
+}
+
+#usage-status label {
+  display: block;
+  margin: 1em auto
+}
+
+textarea {
+  width: 100%;
+  margin-top: 1em;
+  height: 5em;
+}
+
+input[type = "submit"] {
+  width: 70%;
+  display: block;
+  margin: 2em auto;
+  height: 2.2em;
+}

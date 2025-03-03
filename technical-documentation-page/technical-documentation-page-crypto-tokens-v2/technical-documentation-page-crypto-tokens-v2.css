@@ -1,0 +1,229 @@
+ * {
+  box-sizing: border-box;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* For mobile phones*/
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  padding: 0.5em;
+  border-bottom: 2px solid;
+}
+/* navbar section */
+#navbar header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* select {
+  font-size: 3.2vw;
+  position: absolute;
+  right: 0;
+  margin-right: 3%;
+  top: 5;
+} */
+
+.link-flex {
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 2px solid;
+  background-color: white;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #454545;
+  font-size: min(3.9vw, 19px);
+  height: 41px;
+  width: 20%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link img {
+  position: absolute;
+  width: 1px;
+}
+
+.nav-link:not(:last-child) {
+  border-right: 1px solid;
+}
+
+.nav-link:hover {
+  background-color: #C5C5C5;
+  color: black;
+  font-size: 1px;
+}
+
+.nav-link:hover img {
+  width: 30px;
+}
+/* main-doc section */
+.main-section {
+  padding: 8px;
+  padding-top: 7em;
+}
+
+.main-section header {
+  font-size: 1.5em;
+}
+
+.main-section img {
+  width: 1.3em;
+}
+
+.main-section > header > span {
+  font-size: 1.8em;
+  font-weight: bold;  
+  margin-left: 5px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.main-section ul > li > h3 {
+  font-size: 1.4em;
+}
+
+.main-section article {
+  font-size: 1.1em;
+}
+
+code a {
+  display: block;
+  text-decoration: none;
+  background-color: grey;
+  margin-top: 2em;
+  font-size: 1.3em;
+  width: 80%;
+  max-width: 400px;
+  margin-left: 2em;
+  color: black;
+  border: 2px solid black;
+}
+
+code:hover a {
+  color: white;
+  background-color: #979797;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+  width: 100%;
+  margin-top: 2em;
+}
+
+footer {
+  background-color: grey;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding-left: 1em;
+  color: black;
+  font-size: 1.3em;
+  border-top: 2px solid;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+#reference a {
+  text-decoration: none;
+  color: black;
+}
+
+#reference a:hover {
+  color: white;
+}
+
+/* for desktop device */
+
+@media only screen and (min-width: 600px) {
+  #navbar {
+    width: 180px;
+    height: 100%;
+    border-right: 2px solid;
+    padding: 0;
+  }
+
+  #navbar header {
+    height: 15%;
+    font-size: max();
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+
+  /* select{
+    position: relative;
+    width: 100%;
+    height: 4%;
+    font-size: min(2vw, 15px);
+  } */
+
+  option {
+    z-index: 1;
+  }
+
+  .link-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+  }
+
+  .nav-link {
+    width: 100%;
+    height: 20%;
+    font-size: 1.3em;
+  }
+
+  .nav-link:not(:last-child) {
+  border-right: none;
+  border-bottom: 2px solid;
+  }
+
+  .nav-link:hover img {
+  width: 50px;
+  }
+
+  #main-doc {
+    width: min(70%, 70 + 180px);
+    margin-left: min(180px, 30%);
+  }
+
+  .main-section {
+    padding-top: 3em;
+    text-align: left;
+    padding-left: 2em;
+  }
+
+  footer {
+    width: calc(100% - 180px);
+    margin-left: min(180px, 30%);
+    height: 9%;
+    font-size: 1.5em;
+  }
+}

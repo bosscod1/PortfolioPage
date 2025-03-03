@@ -1,0 +1,105 @@
+ * {
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+  max-width: 500px;
+}
+
+body {
+  padding-top: 2em;
+  background: linear-gradient(115deg, #113f67, black);
+  border: 2px solid grey;
+  padding-bottom: 2em;
+}
+
+#title {
+  font-size: 300%;
+  text-shadow: 2px 2px 10px #000;
+}
+
+#subtitle {
+  font-size: 130%;
+  margin-top: 0.2em;
+  text-shadow: 2px 2px 10px #000;
+}
+
+#img-div {
+  background-color: black;
+  width: 90%;
+  padding-bottom: 5px;
+}
+
+#img-caption {
+  margin-top: 5px;
+  color: white;
+  font-size: 120%;
+}
+
+#img-div img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 1.5em;
+  border: 3px solid black;
+}
+
+#tribute-info {
+  width: 90%;
+}
+
+#text-info {
+  background-color: white;
+  height: auto;
+  border: 3px solid black;
+}
+
+#text-info h2 {
+  font-size: 185%;
+  width: 100%;
+  color: black;
+  padding-top: 1em;
+}
+
+#text-info li {
+  text-align: left;
+  margin-top: 2em;
+  font-size: 1.2em;
+  color: black;
+}
+
+#text-info ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 85%;
+  max-width: 360px;
+  margin:　0 auto;
+  padding-bottom: 2em;
+}
+
+strong {
+  display: block;
+  text-align: left;
+  color: black;
+}
+
+#link-info {
+  background-color: #38598b;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 90%;
+  border: 3px solid black;
+}
+
+#link-text {
+  width: 85%;
+  max-width: 400px;
+  font-size: 1.1em;
+}
+
+#tribute-link {
+  color: white;
+}

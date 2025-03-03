@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>
+      Rainbow Pony Order Form
+    </title>
+    <mate charset = "UTF-8">
+      <link rel = "stylesheet" href = "./survey-form-rainbow-pony-order-form.css">
+  </head>
+  <body>
+    <h1 id = "title">Rainbow Pony Order Form</h1>
+    <p id = "description">Choose your favorite Rainbow Pony  and take it home!</p>
+    <form id = "survey-form">
+      <fieldset>
+      <label id = "name-label">Name<input type = "text" id = "name" placeholder = "Enter your name" required></label>
+      <label id = "email-label">Dreamland Address<input type = "email" id = "email" placeholder = "Enter your dream address" required></label>
+      <label id = "number-label">Age(Maximum 7 years old)<input type = "number" id = "number" placeholder = "Age" min = "1" max = "7"></label>
+      <label>
+        </fieldset>
+        <fieldset>
+        Favorite Rainbow Pony
+      <select id = "dropdown">
+        <option>(Select your favorite)</option>
+        <option>Paradise Rainbow Pony</option>
+        <option>Hell Rainbow Pony</option>
+      </select>
+      </label>
+      </fieldset>
+      <fieldset>
+      <legend>What's your gender?</legend>
+        <label><input type = "radio" value = "boy" name = "gender" checked class = "inline">Boy</label>
+        <label><input type = "radio" value = "girl" name = "gender" class = "inline">Girl</label>
+        <label><input type = "radio" value = "unicorn" name = "gender" class = "inline">Unicorn</label>
+      </fieldset>
+      <fieldset>
+        <legend>What qualities would you like your Rainbow Pony to have?</legend>
+        <label><input type = "checkbox" class = "inline" value = "strong">Strong</label>
+        <label><input type = "checkbox" class = "inline" value = "funny">Funny</label>
+        <label><input type = "checkbox" class = "inline" value = "smart">Smart</label>
+        <label><input type = "checkbox" class = "inline" value = "poopy">Poopy</label>
+      </fieldset>
+      <label>
+        <fieldset>
+        Name your Rainbow Pony
+        <textarea rows = "2" cols = "20" placeholder = "sushi fish"></textarea>
+      </label>
+      </fieldset>
+      <input type = "submit" id = "submit" value = "Order!">
+      
+    </form>
+  </body>
+</html>

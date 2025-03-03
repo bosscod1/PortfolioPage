@@ -1,0 +1,156 @@
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #7393B3;
+  width: 100%;
+  padding: 0.7em 0.5em;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-img {
+  width: 4.5em
+}
+
+header h1 {
+  font-size: 2em;
+  color: white;
+  margin-left: 0.2em;
+  margin-right: -1em;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1em
+}
+
+nav li {
+  margin: 0.2em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #D3D3D3;
+  font-weight: 1000;
+}
+
+a:hover {
+  background-color: white;
+  color: #708090;
+  font-size: 1.2em
+}
+
+main {
+  margin: auto;
+  margin-top: 6em;
+  max-width: 1000px;
+}
+
+.head-bar {
+  height: 10em;
+  background-image: url(https://www.shutterstock.com/image-illustration/cardano-ada-digital-crypto-currency-600nw-2006902073.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1em;
+  margin-bottom: 2em
+}
+
+.head-bar h1 {
+  color: white;
+  margin: auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#head-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+#head-info > div {
+  height: 9em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.head-info-a img{
+  width: 10em;
+  height: 10em;
+  margin-left: auto;
+}
+
+.head-info-b label {
+  margin-left: auto;
+}
+
+.head-info-b img {
+  width: 13em;
+  height: 13em;
+  margin-left: -3em;
+}
+
+.head-info-c {
+  margin-bottom: 3em;
+}
+
+.head-info-c img {
+  width: 8em;
+  height: 8em;
+  margin-left: auto;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+iframe {
+  width: 100%;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: #E5E4E2;
+}
+
+.email h2 {
+  font-size: 1.5em;
+}
+
+.email p {
+  font-size: 1.3em
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form input[type = "email"] {
+  width: 20em;
+  margin-bottom: 1em
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
